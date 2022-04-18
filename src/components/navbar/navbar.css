@@ -1,0 +1,90 @@
+.portfolio__fixed_div {
+    width: 100%;
+    position: fixed;
+    backdrop-filter: blur(10px);
+    z-index: 1;
+    top: 0;
+}
+
+.portfolio__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem 2rem 6rem;
+}
+
+.portfolio__navbar__myLogo {
+    width: 9rem;
+    height: 5rem;
+}
+
+.header__my_logo{
+    width: 100%;
+}
+
+.portfolio__navbar_title {
+    font-weight: bold;
+    font-size: small;
+    word-spacing: 0.2rem;
+}
+
+.portfolio__navbar_links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 5rem;
+}
+
+.portfolio__navbar_links p {
+    margin-left: 1rem;
+}
+
+.portfolio__navbar__links_source {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.git_logo {
+    margin-right: 0.3rem;
+}
+
+.portfolio__navbar_links_logo img {
+    margin: 2rem 2rem;
+    width : 62px;
+    height: 16px;
+}
+
+.portfolio__navbar_buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 770px) {
+    .portfolio__navbar_hamburger_menu {
+        display: none;
+    }
+
+    .portfolio__navbar {
+        max-width: 140ch;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .portfolio__navbar_links {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .portfolio__navbar_links {
+        display: none;
+    }
+
+    .portfolio__navbar {
+        padding: 2rem 2rem;
+    }
+}
+

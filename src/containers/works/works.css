@@ -1,0 +1,23 @@
+.works--main-div {
+    justify-content: center;
+    align-items: center;
+    margin-top: 11rem;
+}
+
+.works--main-heading {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.works__works_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 770px) {
+    .works__main_div {
+        max-width: 130ch;
+        margin: auto;
+    }
+}

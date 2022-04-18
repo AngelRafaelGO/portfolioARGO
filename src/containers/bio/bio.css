@@ -1,0 +1,17 @@
+.bio__main_div {
+    max-width: 130ch;
+    margin: auto;
+}
+
+.bio_my_story {
+    margin: 3rem 9rem;
+}
+
+.bio_my_story_title {
+    margin-bottom: 2rem;
+}
+
+.bio_my_story p {
+    margin: 1rem 0;
+    font-size: 0.8em;
+}

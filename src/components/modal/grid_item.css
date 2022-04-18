@@ -1,0 +1,18 @@
+.grid_item_main {
+    max-width: 20rem;
+}
+
+.grid_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.grid_item_image {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}

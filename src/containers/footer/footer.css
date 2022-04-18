@@ -1,0 +1,17 @@
+.main__footer_div {
+    max-width: 130ch;
+    margin: auto;
+}
+
+.footer__copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9rem;
+    margin-bottom: 3rem;
+}
+
+.footer__copyright p {
+    font-size: 0.7em;
+    margin: 0 0.4rem;
+}

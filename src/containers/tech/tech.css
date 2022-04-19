@@ -1,0 +1,26 @@
+.tech__main_div {
+    max-width: 130ch;
+    margin-top: 10rem;
+}
+
+.tech__mystack_div {
+    margin: 3rem 9rem;
+
+}
+
+.tech__heading_div {
+    margin-bottom: 2rem;
+}
+
+.tech__logos_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.tech__logo_div {
+    width: 7rem;
+    margin: 0.5rem;
+}
+

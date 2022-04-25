@@ -1,4 +1,7 @@
 .grid_item_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     max-width: 20rem;
 }
 
@@ -9,6 +12,14 @@
     flex-direction: column;
     border-radius: 5px;
     width: 80%;
+}
+
+.grid_item_main {
+    transition: transform .3s ease;
+}
+
+.grid_item_main:hover {
+    transform: scale(90%);
 }
 
 .grid_item_image {

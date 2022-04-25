@@ -9,7 +9,7 @@ function Tech() {
     return (
         <Box className="tech__main_div">
             <Section delay={0.1}>
-                <Box className="tech__mystack_div">
+                <Box className="tech__tech_div">
                     <Box className="tech__heading_div">
                         <Heading>Dev tools</Heading>
                     </Box>

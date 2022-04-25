@@ -1,11 +1,10 @@
 .tech__main_div {
     max-width: 130ch;
-    margin-top: 10rem;
+    margin: 9rem auto;
 }
 
-.tech__mystack_div {
+.tech__tech_div {
     margin: 3rem 9rem;
-
 }
 
 .tech__heading_div {

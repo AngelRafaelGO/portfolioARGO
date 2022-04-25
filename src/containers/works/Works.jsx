@@ -16,6 +16,7 @@ function Works() {
                 <Box className="works__works_box">
                     <SimpleGrid columns={2} spacing={10}>
                         <WorkGridItem
+                            className="works__work_item"
                             title="Ukraine War API"
                             href="https://github.com/AngelRafaelGO/ukraine_war_news_api"
                             thumbnail={ukraineFlag}

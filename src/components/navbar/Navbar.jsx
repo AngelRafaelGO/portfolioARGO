@@ -9,8 +9,8 @@ import {
     MenuButton,
     IconButton, MenuItem, Image
 } from "@chakra-ui/react";
-import {AnimatePresence, motion} from "framer-motion";
-import {HamburgerIcon} from '@chakra-ui/icons';
+import { AnimatePresence, motion } from "framer-motion";
+import { HamburgerIcon } from '@chakra-ui/icons';
 import { SiDarkreader } from 'react-icons/si';
 import { AiFillGithub } from 'react-icons/ai';
 
@@ -19,7 +19,7 @@ import myLogo from "../../assets/logoAngel.svg";
 import myLogo2 from "../../assets/logoAngel2.svg";
 
 function Navbar() {
-    const {toggleColorMode} = useColorMode();
+    const { toggleColorMode } = useColorMode();
 
     //<Heading className="portfolio__navbar_title">Angel Rafael Gonzalez</Heading>
 
@@ -27,12 +27,12 @@ function Navbar() {
         <Box className="portfolio__fixed_div">
             <Box className="portfolio__navbar">
                     <a href="/">
-                        <motion.div style={{display: 'inline-block'}}
-                                    key={useColorModeValue('light', 'dark')} initial={{y: -20, opacity: 0}}
-                                    animate={{y:0, opacity: 1}} exit={{y: 20, opacity: 0}} transition={{duration: 1}}>
+                        <motion.div style={ {display: 'inline-block'} }
+                                    key={ useColorModeValue('light', 'dark') } initial={ {y: -20, opacity: 0} }
+                                    animate={ {y:0, opacity: 1} } exit={ {y: 20, opacity: 0} } transition={ {duration: 1} }>
                             <Image
                                 className="header__my_logo"
-                                src={useColorModeValue(myLogo, myLogo2)}
+                                src={ useColorModeValue(myLogo, myLogo2) }
                                 alt="my logo"
                             />
                         </motion.div>
@@ -51,8 +51,8 @@ function Navbar() {
                 <Box className="portfolio__navbar_buttons">
                     <Box className="portfolio__navbar_hamburger_menu">
                         <Menu>
-                            <MenuButton as={IconButton} aria-label="menu" icon={<HamburgerIcon />}
-                                        bg={useColorModeValue('yellow.400', 'green.200')} />
+                            <MenuButton as={ IconButton } aria-label="menu" icon={ <HamburgerIcon /> }
+                                        bg={ useColorModeValue('yellow.400', 'green.200') } />
                             <MenuList>
                                 <MenuItem>
                                     <a href="/works">Works</a>
@@ -71,12 +71,12 @@ function Navbar() {
                         </Menu>
                     </Box>
                     <AnimatePresence exitBeforeEnter initial={false}>
-                        <motion.div style={{display: 'inline-block'}}
-                                    key={useColorModeValue('light', 'dark')} initial={{y: -20, opacity: 0}}
-                                    animate={{y:0, opacity: 1}} exit={{y: 20, opacity: 0}} transition={{duration: 0.2}}>
+                        <motion.div style={ {display: 'inline-block'} }
+                                    key={ useColorModeValue('light', 'dark') } initial={ {y: -20, opacity: 0} }
+                                    animate={ {y:0, opacity: 1} } exit={ {y: 20, opacity: 0} } transition={ {duration: 0.2} }>
                             <IconButton icon={<SiDarkreader />}
-                                        bg={useColorModeValue('green.500', 'purple.500')}
-                                    onClick={toggleColorMode} aria-label="dark-theme">
+                                        bg={ useColorModeValue('green.500', 'purple.500') }
+                                    onClick={ toggleColorMode } aria-label="dark-theme">
                             </IconButton>
                         </motion.div>
                     </AnimatePresence>

@@ -18,8 +18,15 @@
     height: 5rem;
 }
 
-.header__my_logo{
+.header__my_logo {
     width: 100%;
+    transform: rotate(0);
+    transition: 300ms ease-in-out;
+}
+
+.header__my_logo:hover {
+    transform: rotate(10deg);
+    transition: 400ms ease all;
 }
 
 .portfolio__navbar_title {

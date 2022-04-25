@@ -8,11 +8,12 @@
     align-items: center;
     flex-direction: column;
     border-radius: 5px;
+    width: 80%;
 }
 
 .grid_item_image {
     width: 100%;
     object-fit: cover;
-    border-radius: 10px;
     margin-bottom: 2rem;
+    border-radius: 10px;
 }

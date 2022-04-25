@@ -19,7 +19,7 @@ function Header() {
     return (
         <Box className="header__main_div">
             <Section delay={0.1}>
-                <Box  className="header__text" bg={useColorModeValue('red.200', 'gray.700')}>
+                <Box  className="header__text" bg={useColorModeValue('red.200', 'teal.500')}>
                     <Text>Hello! I'm a fullstack developer student based in Paris &#128681;</Text>
                 </Box>
             </Section>
@@ -51,7 +51,7 @@ function Header() {
                             <IconButton aria-label="like amy"
                                         className="header__like_button"
                                         icon={<BsHeart />}
-                                        bg={useColorModeValue('gray.400', 'teal.200')}
+                                        bg={useColorModeValue('gray.200', 'gray.600')}
                                         onClick={setCounter}
                             />
                             <Text

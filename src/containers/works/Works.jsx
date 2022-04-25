@@ -1,11 +1,10 @@
 import React from "react";
-import {Heading, Box, SimpleGrid} from "@chakra-ui/react";
+import { Heading, Box, SimpleGrid } from "@chakra-ui/react";
 import Section from "../../components/modal/motionDiv";
 
 import "./works.css";
-import {WorkGridItem} from "../../components/modal/grid_item";
-import UkraineFlag from '../../assets/ukraine_flag.jpg'
-import AlienMorph from '../../assets/alienMorphSS.PNG'
+import { WorkGridItem } from "../../components/modal/grid_item";
+import { alienMorph, bigMic, ultraHack, magicShop, thisSite, ukraineFlag } from '../../assets';
 
 function Works() {
     return (
@@ -18,38 +17,38 @@ function Works() {
                     <SimpleGrid columns={2} spacing={10}>
                         <WorkGridItem
                             title="Ukraine War API"
-                            href="https://ukrainewarnews.herokuapp.com/"
-                            thumbnail={UkraineFlag}
+                            href="https://github.com/AngelRafaelGO/ukraine_war_news_api"
+                            thumbnail={ukraineFlag}
                         >
                         </WorkGridItem>
-
                         <WorkGridItem
                             title="Magic Shop"
-                            thumbnail={UkraineFlag}
+                            href="https://github.com/AngelRafaelGO/magicShop"
+                            thumbnail={magicShop}
                         >
                         </WorkGridItem>
-
                         <WorkGridItem
                             title="Big Mic"
-                            thumbnail={AlienMorph}
+                            href="https://github.com/AngelRafaelGO/app_big_mic"
+                            thumbnail={bigMic}
                         >
                         </WorkGridItem>
-
                         <WorkGridItem
                             title="Alien Invasion"
-                            thumbnail={AlienMorph}
+                            href="https://github.com/AngelRafaelGO/alien_invasion"
+                            thumbnail={alienMorph}
                         >
                         </WorkGridItem>
-
                         <WorkGridItem
                             title="Ultrahackathon 2022"
-                            thumbnail={AlienMorph}
+                            href="https://github.com/AngelRafaelGO/IntereFXWebApp"
+                            thumbnail={ultraHack}
                         >
                         </WorkGridItem>
-
                         <WorkGridItem
                             title="This Website"
-                            thumbnail={AlienMorph}
+                            href="https://github.com/AngelRafaelGO/portfolioARGO"
+                            thumbnail={thisSite}
                         >
                         </WorkGridItem>
                     </SimpleGrid>

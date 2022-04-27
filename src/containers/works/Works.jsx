@@ -1,10 +1,10 @@
 import React from "react";
 import { Heading, Box, SimpleGrid } from "@chakra-ui/react";
-import Section from "../../components/modal/motionDiv";
 
-import "./works.css";
-import { WorkGridItem } from "../../components/modal/grid_item";
 import { alienMorph, bigMic, ultraHack, magicShop, thisSite, ukraineFlag } from '../../assets';
+import { WorkGridItem } from "../../components/modal/grid_item";
+import Section from "../../components/modal/motionDiv";
+import "./works.css";
 
 function Works() {
     return (
@@ -18,7 +18,7 @@ function Works() {
                         <WorkGridItem
                             className="works__work_item"
                             title="Ukraine War API"
-                            href="https://github.com/AngelRafaelGO/ukraine_war_news_api"
+                            href="https://ukrainewarnews.herokuapp.com/"
                             thumbnail={ukraineFlag}
                         >
                         </WorkGridItem>

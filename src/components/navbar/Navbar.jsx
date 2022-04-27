@@ -46,7 +46,7 @@ function Navbar() {
                             Source
                         </a></Text>
                     </Box>
-                    <Text><a href="#contact">Contact</a></Text>
+                    <Text><a href="/contact">Contact</a></Text>
                 </Box>
                 <Box className="portfolio__navbar_buttons">
                     <Box className="portfolio__navbar_hamburger_menu">
@@ -65,7 +65,7 @@ function Navbar() {
                                     </a>
                                 </MenuItem>
                                 <MenuItem>
-                                    Contact
+                                    <a href="/contact">Contact</a>
                                 </MenuItem>
                             </MenuList>
                         </Menu>

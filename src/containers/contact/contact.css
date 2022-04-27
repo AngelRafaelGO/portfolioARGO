@@ -1,0 +1,19 @@
+.contact__main_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15rem;
+}
+
+.contact__main_heading {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.contact__form-control input {
+    margin-bottom: 2rem;
+}
+
+.contact__send_input {
+    margin-top: 2rem;
+}

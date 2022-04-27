@@ -3,13 +3,12 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 5rem 0;
 }
 
 .header__text {
     border-radius: 5px;
     padding: 0.5rem 2rem;
-    margin-top: 12rem;
+    margin-top: 15rem;
 }
 
 .header__text p {

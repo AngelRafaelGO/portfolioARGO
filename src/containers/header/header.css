@@ -25,13 +25,17 @@
 
 .header__about_me {
     margin-top: 3rem;
-    margin-right: 2rem;
+    margin-right: 5rem;
 }
 
 .header__about_me p {
     margin: 1rem 0;
     font-weight: normal;
     font-size: 0.8em;
+}
+
+.header__profile_picture {
+    width: 20rem;
 }
 
 .header__amy_container {
@@ -101,6 +105,10 @@
 
     .header__amy_container {
         flex-direction: column;
+    }
+
+    .header__profile_picture {
+        width: 15rem;
     }
 }
 

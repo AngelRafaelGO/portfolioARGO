@@ -11,6 +11,11 @@
     margin-bottom: 2rem;
 }
 
+.tech__subtxt {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
 .tech__logos_div {
     display: flex;
     justify-content: center;
@@ -19,7 +24,7 @@
 }
 
 .tech__logo_div {
-    width: 7rem;
+    width: 6rem;
     margin: 0.5rem;
 }
 

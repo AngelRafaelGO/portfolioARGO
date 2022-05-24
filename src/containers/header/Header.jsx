@@ -4,8 +4,8 @@ import { VscArrowRight } from "react-icons/vsc";
 import { BsHeart } from "react-icons/bs";
 
 import Section from '../../components/modal/motionDiv'
-import myPhoto from "../../assets/my_picture.png";
 import amyIdle from "../../assets/amy_idle.gif"
+import Chris_me from '../../assets/chris_me.svg';
 import "./header.css";
 
 function Header() {
@@ -35,8 +35,10 @@ function Header() {
                             cycling, running and playing board games. I'm a fan of sci-fi movies and
                             european literature</Text>
                     </Box>
-                    <Image className="header__my_photo" boxSize="15%" borderRadius="full" src={myPhoto}
-                           alt="angel's picture" />
+                    <Box className="header__profile_picture">
+                        <Image className="header__my_photo" borderRadius="full" src={Chris_me}
+                               alt="angel's picture" />
+                    </Box>
                 </Box>
             </Section>
             <Section delay={0.1}>

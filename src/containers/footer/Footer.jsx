@@ -1,6 +1,7 @@
 import React from "react";
 import { Box, Text } from "@chakra-ui/react";
 import { AiOutlineCopyright } from "react-icons/ai";
+
 import "./footer.css";
 
 function Footer() {

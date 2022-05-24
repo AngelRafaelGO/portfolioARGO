@@ -1,6 +1,15 @@
 .main__footer_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     max-width: 130ch;
     margin: auto;
+}
+
+.footer__chris {
+    width: 15%;
+    margin-top: 9rem;
 }
 
 .footer__copyright {
@@ -8,7 +17,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 9rem;
+    margin-top: 3rem;
     margin-bottom: 3rem;
 }
 

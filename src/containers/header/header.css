@@ -38,6 +38,11 @@
     width: 20rem;
 }
 
+.header__my_photo:hover {
+    transform: rotate(360deg);
+    transition: 400ms ease all;
+}
+
 .header__amy_container {
     display: flex;
     justify-content: space-between;

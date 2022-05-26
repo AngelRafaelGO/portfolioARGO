@@ -17,3 +17,9 @@
 .contact__send_input {
     margin-top: 2rem;
 }
+
+.contact__send_input:hover {
+    transform: scale(1.2);
+    background-color: #313c53;
+    color: ivory;
+}

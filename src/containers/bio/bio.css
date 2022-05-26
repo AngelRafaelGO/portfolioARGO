@@ -13,5 +13,22 @@
 
 .bio_my_story p {
     margin: 1rem 0;
+    font-size: 1em;
+}
+
+.bio_my_story_link:hover {
+    color: #DA0037;
+}
+
+.bio_my_story_date {
+    font-size: 1.3em;
+}
+
+.bio_my_story_text_box {
+    margin-left: 1rem;
+}
+
+.bio_my_story_text {
+    margin-bottom: 1rem;
     font-size: 0.8em;
 }

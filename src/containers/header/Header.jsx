@@ -20,7 +20,7 @@ function Header() {
         <Box className="header__main_div">
             <Section delay={0.1}>
                 <Box  className="header__text" bg={useColorModeValue('red.200', 'teal.500')}>
-                    <Text>Hello! I'm a fullstack developer student based in Paris &#128681;</Text>
+                    <Text>Hello! I'm a fullstack developer based in Paris &#128681;</Text>
                 </Box>
             </Section>
             <Section delay={0.1}>
@@ -28,9 +28,8 @@ function Header() {
                     <Box className="header__about_me">
                         <Heading>About me</Heading>
                         <Text>I've always been a tech enthusiast, since I was a teen &#129299;</Text>
-                        <Text>I design and build web projects that are colorful and minimalistic, ergonomic
-                            and easy to read. I do my best to write clean an maintainable code</Text>
-                        <Text>I also build API's</Text>
+                        <Text>As a developer, I mostly write scripts and query databases. I also work with REST api's, using both javascript and php framworks. I do my best to write clean, maintainable and scalable code</Text>
+                        <Text>Design-wise, I enjoy creating minimalistic and functional UI's</Text>
                         <Text>When I'm not doing work, I enjoy developing games, playing them,
                             cycling, running and playing board games. I'm a fan of sci-fi movies and
                             european literature</Text>

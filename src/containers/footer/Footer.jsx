@@ -8,7 +8,7 @@ function Footer() {
     return (
         <Box className="main__footer_div">
             <Box className="footer__copyright">
-                <Text>Angel Rafael Gonzalez.</Text>
+                <Text>Angel Rafael Gonzalez</Text>
                 <Text>All Rights Reserved</Text>
                 <Box className="footer__copyright_logo">
                     <AiOutlineCopyright/>

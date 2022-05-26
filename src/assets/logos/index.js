@@ -7,5 +7,6 @@ import pythonLogo from './4375050_logo_python_icon.png';
 import vueLogo from './4375161_logo_vuejs_icon (1).png';
 import phpLogo from './4375039_logo_php_icon.png';
 import symfonyLogo from './4691208_symfony_icon.png';
+import sqlLogo from './199190_sql_file_extension_format_icon.png';
 
-export { reactLogo, jsLogo, nodeLogo, htmlLogo, cssLogo, pythonLogo, vueLogo, phpLogo, symfonyLogo };
+export { reactLogo, jsLogo, nodeLogo, htmlLogo, cssLogo, pythonLogo, vueLogo, phpLogo, symfonyLogo, sqlLogo };

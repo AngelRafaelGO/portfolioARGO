@@ -1,5 +1,6 @@
 import React from "react";
-import { Box, Text, Heading } from "@chakra-ui/react";
+import { Box, Text, Heading, List, Link, ListItem, ListIcon } from "@chakra-ui/react";
+import { MdKeyboardArrowRight } from "react-icons/md";
 
 import Section from "../../components/modal/motionDiv";
 import "./bio.css";
@@ -12,15 +13,47 @@ function Bio() {
                     <Box className="bio_my_story_title">
                         <Heading>Bio</Heading>
                     </Box>
-                    <Text as='u'>1988</Text>
+                    <Text as='u' className="bio_my_story_date">1988</Text>
                     <Text>Born in Houston, Texas</Text>
-                    <Text as='u'>2019</Text>
+                    <Text as='u' className="bio_my_story_date">2019</Text>
                     <Text>Completed a masters degree in Logic & Philosophy of Science</Text>
-                    <Text>Worked for Maison Kitsuné </Text>
-                    <Text as='u'>2021</Text>
-                    <Text>During the pandemic, went to engineering school to learn code (ESIEE-Tech)</Text>
-                    <Text as='u'>2022</Text>
+                    <Text>Worked for <Link className="bio_my_story_link" href="https://maisonkitsune.com/fr/" target="_blank">Maison Kitsuné</Link></Text>
+                    <Box className="bio_my_story_text_box">
+                        <List>
+                            <ListItem className="bio_my_story_text">
+                                <ListIcon as={MdKeyboardArrowRight} color='green.500' />
+                                As an assistant manager
+                            </ListItem>
+                        </List>
+                    </Box>
+                    <Text as='u' className="bio_my_story_date">2021</Text>
+                    <Text>During the pandemic, went to engineering school to learn code</Text>
+                    <Box className="bio_my_story_text_box">
+                        <List>
+                            <ListItem className="bio_my_story_text">
+                                <ListIcon as={MdKeyboardArrowRight} color='green.500' />
+                                <Link className="bio_my_story_link" href="https://codingfactory.fr/" target="_blank">Coding Factory by ESIEE-Tech</Link>
+                            </ListItem>
+                        </List>
+                    </Box>
+                    <Text as='u' className="bio_my_story_date">2022</Text>
                     <Text>Fullstack dev intern at Play'in, by Magic Bazar</Text>
+                    <Box className="bio_my_story_text_box">
+                        <List>
+                            <ListItem className="bio_my_story_text">
+                                <ListIcon as={MdKeyboardArrowRight} color='green.500' />
+                                Creation of new php scripts
+                            </ListItem>
+                            <ListItem className="bio_my_story_text">
+                                <ListIcon as={MdKeyboardArrowRight} color='green.500' />
+                                Improvement of existing php scripts
+                            </ListItem>
+                            <ListItem className="bio_my_story_text">
+                                <ListIcon as={MdKeyboardArrowRight} color='green.500' />
+                                API development with Symfony for back office tools
+                            </ListItem>
+                        </List>
+                    </Box>
                 </Box>
             </Section>
         </Box>

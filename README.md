@@ -4,6 +4,7 @@
 ## About the site
 
 Welcome to my personal website, for the moment it's still under construction!
+Feel free to browse the files :)
 
 ## Build with
 

@@ -1,0 +1,23 @@
+.thanks__main_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15rem;
+}
+
+.thanks__message {
+    align-items: center;
+    text-align: center;
+}
+
+.thanks__main-heading {
+    margin-bottom: 5rem;
+}
+
+.thanks__main-text {
+    margin-bottom: 2rem;
+}
+
+.thanks__arrow {
+    margin: 4rem 0;
+}

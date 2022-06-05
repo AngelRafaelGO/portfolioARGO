@@ -4,3 +4,4 @@ export { default as Header } from './header/Header';
 export { default as Works } from './works/Works';
 export { default as Tech } from './tech/Tech';
 export { default as Contact } from './contact/Contact';
+export { default as Thanks } from './thanks/Thanks';

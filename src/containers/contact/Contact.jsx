@@ -1,11 +1,14 @@
 import React from "react";
 import { Box, Heading, FormControl, Input, Textarea } from '@chakra-ui/react';
+import { useNavigate } from "react-router-dom";
 import emailjs from '@emailjs/browser';
 
 import Section from '../../components/modal/motionDiv';
 import './contact.css';
 
 function Contact() {
+
+    const navigate = useNavigate();
 
     function sendEmail(e) {
         e.preventDefault();
@@ -17,6 +20,8 @@ function Contact() {
                 console.log(error.text);
             });
         e.target.reset();
+
+        navigate('/thanks');
     }
 
     return (

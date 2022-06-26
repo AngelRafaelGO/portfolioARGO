@@ -29,11 +29,9 @@ const firebaseConfig = {
 const appFB = initializeApp(firebaseConfig);
 const firestore = getFirestore();
 
-
 function Header() {
-    let amyLikes = 0;
     const [counterLikes, setCounterLikes] = useState([]);
-    const [totalLikes, setTotalLikes] = useState(amyLikes);
+    const [totalLikes, setTotalLikes] = useState(0);
 
     // Get data from Firebase
     useEffect(() => {
@@ -45,9 +43,7 @@ function Header() {
 
     // Add likes to counter
     function addLike() {
-        console.log(amyLikes)
         setTotalLikes( totalLikes + 1);
-
     }
 
     return (
@@ -87,11 +83,11 @@ function Header() {
                                         className="header__like_button"
                                         icon={<BsHeart />}
                                         bg={useColorModeValue('gray.200', 'gray.600')}
-                                        //onClick={}
+                                        onClick={addLike}
                             />
                             <Text
                                 color={useColorModeValue('red.600', 'pink.600')}
-                                className="header__like_counter">{amyLikes}</Text>
+                                className="header__like_counter">{totalLikes}</Text>
                         </Box>
                     </Box>
                     <Box className="header__amy_container_image_interaction">

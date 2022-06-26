@@ -41,7 +41,7 @@ function Navbar() {
                     <Text><a href="/works">Works</a></Text>
                     <Box>
                         <Text ><a className="portfolio__navbar__links_source" target="_blank"
-                                  href="https://github.com/AngelRafaelGO">
+                                  href="https://github.com/AngelRafaelGO" rel="noreferrer">
                             <AiFillGithub className="git_logo" />
                             Source
                         </a></Text>
@@ -59,7 +59,7 @@ function Navbar() {
                                 </MenuItem>
                                 <MenuItem>
                                     <a className="portfolio__navbar__links_source" target="_blank"
-                                       href="https://github.com/AngelRafaelGO">
+                                       href="https://github.com/AngelRafaelGO" rel="noreferrer">
                                         <AiFillGithub className="git_logo" />
                                         Source
                                     </a>

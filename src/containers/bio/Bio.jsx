@@ -17,7 +17,7 @@ function Bio() {
                     <Text>Born in Houston, Texas</Text>
                     <Text as='u' className="bio_my_story_date">2019</Text>
                     <Text>Completed a masters degree in Logic & Philosophy of Science</Text>
-                    <Text>Worked for <Link className="bio_my_story_link" href="https://maisonkitsune.com/fr/" target="_blank">Maison Kitsuné</Link></Text>
+                    <Text>Worked for <Link className="bio_my_story_link" href="https://maisonkitsune.com/fr/" target="_blank" rel="noopener">Maison Kitsuné</Link></Text>
                     <Box className="bio_my_story_text_box">
                         <List>
                             <ListItem className="bio_my_story_text">
@@ -32,7 +32,7 @@ function Bio() {
                         <List>
                             <ListItem className="bio_my_story_text">
                                 <ListIcon as={MdKeyboardArrowRight} color='green.500' />
-                                <Link className="bio_my_story_link" href="https://codingfactory.fr/" target="_blank">Coding Factory by ESIEE-Tech</Link>
+                                <Link className="bio_my_story_link" href="https://codingfactory.fr/" target="_blank" rel="noopener">Coding Factory by ESIEE-Tech</Link>
                             </ListItem>
                         </List>
                     </Box>

@@ -1,45 +1,15 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Box,IconButton, Heading, Text, Image, useColorModeValue } from "@chakra-ui/react";
 import { VscArrowRight } from "react-icons/vsc";
 import { BsHeart } from "react-icons/bs";
-import { initializeApp } from "firebase/app";
-import { getFirestore, onSnapshot, collection, doc, updateDoc } from "firebase/firestore";
 
 import Section from '../../components/modal/motionDiv'
 import amyIdle from "../../assets/amy_idle.gif"
 import Chris_me from '../../assets/chris_me.svg';
 import "./header.css";
 
-// Import the functions you need from the SDKs you need
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Firebase configuration
-const firebaseConfig = {
-    apiKey: "AIzaSyDXBue5Si_s5EGPrwMh1t3MXMvYuqmKndQ",
-    authDomain: "mywebsite-10750.firebaseapp.com",
-    projectId: "mywebsite-10750",
-    storageBucket: "mywebsite-10750.appspot.com",
-    messagingSenderId: "796603426673",
-    appId: "1:796603426673:web:13121669eb019ae39cb8d0",
-    measurementId: "G-BY4LW6BD1Q"
-};
-
-// Initialize Firebase
-const appFB = initializeApp(firebaseConfig);
-const firestore = getFirestore();
-
 function Header() {
-    const [counterLikes, setCounterLikes] = useState([]);
     const [totalLikes, setTotalLikes] = useState(0);
-
-    // Get data from Firebase
-    useEffect(() => {
-        onSnapshot(collection(firestore, 'counter'), (snapshot => {
-            setCounterLikes(snapshot.docs.map(doc => doc.data()));
-        }))
-    }, [])
-
 
     // Add likes to counter
     function addLike() {

@@ -3,7 +3,7 @@ import { Box, Text,Heading, Image } from '@chakra-ui/react';
 
 import Section from "../../components/modal/motionDiv";
 import './tech.css';
-import { reactLogo, jsLogo, nodeLogo, htmlLogo, cssLogo, pythonLogo, sqlLogo, phpLogo, symfonyLogo } from '../../assets/logos';
+import { reactLogo, jsLogo, nodeLogo, htmlLogo, cssLogo, sqlLogo, phpLogo, symfonyLogo } from '../../assets/logos';
 
 function Tech() {
     return (

@@ -50,7 +50,11 @@ function Bio() {
                             </ListItem>
                             <ListItem className="bio_my_story_text">
                                 <ListIcon as={MdKeyboardArrowRight} color='green.500' />
-                                API development with Symfony
+                                Back-end development with Symfony
+                            </ListItem>
+                            <ListItem className="bio_my_story_text">
+                                <ListIcon as={MdKeyboardArrowRight} color='green.500' />
+                                Front-end development with React
                             </ListItem>
                         </List>
                     </Box>

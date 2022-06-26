@@ -32,10 +32,10 @@ function Contact() {
                     <Box>
                         <form onSubmit={sendEmail} name="my_site">
                             <FormControl className="contact__form-control">
-                                <Input id="name" type="text" placeholder="Name" name="name" />
-                                <Input id="email" type="email" placeholder="Email" name="email" />
-                                <Textarea placeholder="Message" size="sm" name="message" />
-                                <Input className="contact__send_input" id="contact-send" type="submit"/>
+                                <Input id="name" type="text" placeholder="Name" name="name" required />
+                                <Input id="email" type="email" placeholder="Email" name="email" required />
+                                <Textarea placeholder="Message" size="sm" name="message" required />
+                                <Input className="contact__send_input" id="contact-send" type="submit" value="Send"/>
                             </FormControl>
                         </form>
                     </Box>

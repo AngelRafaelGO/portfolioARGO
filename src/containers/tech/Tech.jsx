@@ -31,9 +31,6 @@ function Tech() {
                             <Image src={symfonyLogo}/>
                         </Box>
                         <Box className="tech__logo_div">
-                            <Image src={pythonLogo}/>
-                        </Box>
-                        <Box className="tech__logo_div">
                             <Image src={htmlLogo}/>
                         </Box>
                         <Box className="tech__logo_div">

@@ -1,10 +1,9 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Box,IconButton, Heading, Text, Image, useColorModeValue } from "@chakra-ui/react";
 import { VscArrowRight } from "react-icons/vsc";
 import { BsHeart } from "react-icons/bs";
 import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-import { getFirestore, doc, getDoc, updateDoc } from "firebase/firestore/lite";
+import { getFirestore, onSnapshot, collection, doc, updateDoc } from "firebase/firestore";
 
 import Section from '../../components/modal/motionDiv'
 import amyIdle from "../../assets/amy_idle.gif"
@@ -27,38 +26,29 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
-const firestore = getFirestore(app);
+const appFB = initializeApp(firebaseConfig);
+const firestore = getFirestore();
 
-let amyLikes = 0;
-// Amy read likes
-async function readCounter() {
-    const myLikes = await getDoc(counter);
-    if (myLikes.exists()) {
-        const docData = myLikes.data();
-        amyLikes = docData.likes;
-    }
-}
-
-// Amy add likes
-const counter = doc(firestore, 'counter/amyLikes');
-function writeLikeCounter() {
-    amyLikes += 1;
-    const docData = {
-        likes: amyLikes,
-    };
-
-    updateDoc(counter, docData);
-}
 
 function Header() {
+    let amyLikes = 0;
+    const [counterLikes, setCounterLikes] = useState([]);
+    const [totalLikes, setTotalLikes] = useState(amyLikes);
 
-    // let counter = 0;
-    // const [likeCount, setLikeCount] = useState(counter);
-    // function setCounter() {
-    //    setLikeCount(likeCount + 1);
-    // }
+    // Get data from Firebase
+    useEffect(() => {
+        onSnapshot(collection(firestore, 'counter'), (snapshot => {
+            setCounterLikes(snapshot.docs.map(doc => doc.data()));
+        }))
+    }, [])
+
+
+    // Add likes to counter
+    function addLike() {
+        console.log(amyLikes)
+        setTotalLikes( totalLikes + 1);
+
+    }
 
     return (
         <Box className="header__main_div">
@@ -97,7 +87,7 @@ function Header() {
                                         className="header__like_button"
                                         icon={<BsHeart />}
                                         bg={useColorModeValue('gray.200', 'gray.600')}
-                                        onClick={writeLikeCounter}
+                                        //onClick={}
                             />
                             <Text
                                 color={useColorModeValue('red.600', 'pink.600')}

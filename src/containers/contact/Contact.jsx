@@ -35,7 +35,7 @@ function Contact() {
                                 <Input id="name" type="text" placeholder="Name" name="name" />
                                 <Input id="email" type="email" placeholder="Email" name="email" />
                                 <Textarea placeholder="Message" size="sm" name="message" />
-                                <Input className="contact__send_input" id="contact-send" type="submit" />
+                                <Input className="contact__send_input" id="contact-send" type="submit"/>
                             </FormControl>
                         </form>
                     </Box>

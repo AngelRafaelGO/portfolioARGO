@@ -12,7 +12,7 @@ function Tech() {
                 <Box className="tech__tech_div">
                     <Box className="tech__heading_div">
                         <Heading>My dev tools</Heading>
-                        <Text className="tech__subtxt">These are the main technologies I used in my projects</Text>
+                        <Text className="tech__subtxt">These are the main technologies I use in my projects</Text>
                     </Box>
                     <Box className="tech__logos_div">
                         <Box className="tech__logo_div">

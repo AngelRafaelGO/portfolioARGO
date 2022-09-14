@@ -71,7 +71,7 @@ function Bio() {
                                 </ListItem>
                             </List>
                         </Box>
-                        <Text>Contrat Pro -> Fullstack dev at <Link className="bio_my_story_link" href="https://infotel.com/" target="_blank" rel="noopener">Infotel</Link></Text>
+                        <Text>Contrat Pro -> Full Stack dev at <Link className="bio_my_story_link" href="https://infotel.com/" target="_blank" rel="noopener">Infotel</Link></Text>
                         <Box className="bio_my_story_text_box">
                             <List>
                                 <ListItem className="bio_my_story_text">

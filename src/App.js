@@ -8,7 +8,7 @@ import './App.css'
 
 function App() {
     return (
-        <Box className="App">
+        <Box>
             <Navbar/>
             <Routes>
                 <Route path="/" element={<><Header /><Bio /><Tech /><Footer /></>} />

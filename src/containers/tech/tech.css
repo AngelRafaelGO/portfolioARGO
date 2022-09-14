@@ -1,10 +1,14 @@
+.general__div {
+    padding: 5rem;
+}
+
 .tech__main_div {
     max-width: 130ch;
-    margin: 9rem auto;
+    margin: 0 auto;
 }
 
 .tech__tech_div {
-    margin: 3rem 9rem;
+    margin: 0 9rem;
 }
 
 .tech__heading_div {

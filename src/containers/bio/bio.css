@@ -1,10 +1,14 @@
+.general__div {
+    padding: 5rem;
+}
+
 .bio__main_div {
     max-width: 130ch;
     margin: auto;
 }
 
 .bio_my_story {
-    margin: 3rem 9rem;
+    margin: 0 9rem;
 }
 
 .bio_my_story_title {
@@ -26,6 +30,7 @@
 
 .bio_my_story_text_box {
     margin-left: 1rem;
+    padding: 1rem;
 }
 
 .bio_my_story_text {

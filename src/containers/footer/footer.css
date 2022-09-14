@@ -3,13 +3,9 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    max-width: 130ch;
+    bottom: 0;
+    width: 100%;
     margin: auto;
-}
-
-.footer__chris {
-    width: 15%;
-    margin-top: 9rem;
 }
 
 .footer__copyright {

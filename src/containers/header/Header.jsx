@@ -21,7 +21,7 @@ function Header() {
             <Box className="header__main_div">
                 <Section delay={0.1}>
                     <Box  className="header__text" bg={useColorModeValue('red.200', 'teal.500')}>
-                        <Text>Hello! I'm a fullstack developer based in Paris &#128681;</Text>
+                        <Text>Hello! I'm a full stack developer based in Paris &#128681;</Text>
                     </Box>
                 </Section>
                 <Section delay={0.1}>

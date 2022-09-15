@@ -53,7 +53,7 @@ function Header() {
                                 <IconButton aria-label="like amy"
                                             className="header__like_button"
                                             icon={<BsHeart />}
-                                            bg={useColorModeValue('gray.200', 'gray.600')}
+                                            bg={useColorModeValue('#A79E8B', 'gray.600')}
                                             onClick={addLike}
                                 />
                                 <Text

@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Heading, FormControl, Input, Textarea } from '@chakra-ui/react';
+import {Box, Heading, FormControl, Input, Textarea, useColorModeValue} from '@chakra-ui/react';
 import { useNavigate } from "react-router-dom";
 import emailjs from '@emailjs/browser';
 
@@ -25,22 +25,24 @@ function Contact() {
     }
 
     return (
-        <Box className="contact__main_div">
-            <Section>
-                <Box>
-                    <Heading className="contact__main_heading">Send me a message !</Heading>
+        <Box className="general__div" bg={useColorModeValue('#A79E8B', '#373227')}>
+            <Box className="contact__main_div">
+                <Section>
                     <Box>
-                        <form onSubmit={sendEmail} name="my_site">
-                            <FormControl className="contact__form-control">
-                                <Input id="name" type="text" placeholder="Name" name="name" required />
-                                <Input id="email" type="email" placeholder="Email" name="email" required />
-                                <Textarea placeholder="Message" size="sm" name="message" required />
-                                <Input className="contact__send_input" id="contact-send" type="submit" value="Send"/>
-                            </FormControl>
-                        </form>
+                        <Heading className="contact__main_heading">Send me a message !</Heading>
+                        <Box>
+                            <form onSubmit={sendEmail} name="my_site">
+                                <FormControl className="contact__form-control">
+                                    <Input id="name" type="text" placeholder="Name" name="name" required />
+                                    <Input id="email" type="email" placeholder="Email" name="email" required />
+                                    <Textarea placeholder="Message" size="sm" name="message" required />
+                                    <Input className="contact__send_input" id="contact-send" type="submit" value="Send"/>
+                                </FormControl>
+                            </form>
+                        </Box>
                     </Box>
-                </Box>
-            </Section>
+                </Section>
+            </Box>
         </Box>
     );
 }

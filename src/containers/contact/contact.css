@@ -1,8 +1,13 @@
+.general__div {
+    padding: 5rem;
+}
+
 .contact__main_div {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 15rem;
+    margin-bottom: 20rem;
 }
 
 .contact__main_heading {
@@ -12,6 +17,7 @@
 
 .contact__form-control input {
     margin-bottom: 2rem;
+    color: #171717;
 }
 
 .contact__send_input {
@@ -20,6 +26,6 @@
 
 .contact__send_input:hover {
     transform: scale(1.2);
-    background-color: #313c53;
+    background-color: #8D7E71;
     color: ivory;
 }

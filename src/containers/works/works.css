@@ -1,8 +1,13 @@
+.general__div {
+    padding: 5rem;
+}
+
 .works--main-div {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 15rem;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
 }
 
 .works--main-heading {

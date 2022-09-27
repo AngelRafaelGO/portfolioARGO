@@ -1,4 +1,4 @@
-.general__div {
+.general__div_bio {
     padding: 5rem;
 }
 
@@ -36,4 +36,46 @@
 .bio_my_story_text {
     margin-bottom: 1rem;
     font-size: 0.8em;
+}
+
+@media screen and (max-width: 786px) {
+    .general__div_bio {
+        padding: 1rem;
+    }
+
+    .bio__main_div {
+        Width: 100%;
+    }
+
+    .bio_my_story {
+        margin: 0;
+    }
+
+    .bio_my_story_title {
+        margin-bottom: 1rem;
+    }
+
+    .bio_my_story p {
+        margin: 0;
+        font-size: 1em;
+    }
+
+    .bio_my_story_link:hover {
+        color: #DA0037;
+    }
+
+    .bio_my_story_date {
+        font-size: 1.3em;
+        margin-bottom: 2rem;
+    }
+
+    .bio_my_story_text_box {
+        margin: 0;
+        padding: 1rem;
+    }
+
+    .bio_my_story_text {
+        margin-bottom: 1rem;
+        font-size: 0.8em;
+    }
 }

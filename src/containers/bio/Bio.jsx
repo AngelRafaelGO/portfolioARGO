@@ -7,7 +7,7 @@ import "./bio.css";
 
 function Bio() {
     return (
-        <Box className="general__div" bg={useColorModeValue('#D8BEAF', '#29282E')}>
+        <Box className="general__div_bio" bg={useColorModeValue('#D8BEAF', '#29282E')}>
             <Box className="bio__main_div">
                 <Section delay={0.1}>
                     <Box className="bio_my_story">

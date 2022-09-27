@@ -21,8 +21,6 @@ import myLogo2 from "../../assets/logoAngel2.svg";
 function Navbar() {
     const { toggleColorMode } = useColorMode();
 
-    //<Heading className="portfolio__navbar_title">Angel Rafael Gonzalez</Heading>
-
     return (
         <Box className="portfolio__fixed_div">
             <Box className="portfolio__navbar">

@@ -20,6 +20,14 @@
     color: #171717;
 }
 
+input::placeholder {
+    color: #171717;
+}
+
+textarea::placeholder {
+    color: #171717;
+}
+
 .contact__send_input {
     margin-top: 2rem;
 }

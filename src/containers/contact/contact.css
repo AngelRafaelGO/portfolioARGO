@@ -1,4 +1,4 @@
-.general__div {
+.general__div_contact {
     padding: 5rem;
 }
 
@@ -36,4 +36,16 @@ textarea::placeholder {
     transform: scale(1.2);
     background-color: #8D7E71;
     color: ivory;
+}
+
+@media screen and (min-width: 770px) {
+}
+
+@media screen and (max-width: 770px) {
+}
+
+@media screen and (max-width: 550px) {
+    .general__div_contact {
+        padding: 1rem;
+    }
 }

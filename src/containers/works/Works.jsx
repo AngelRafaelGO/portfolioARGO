@@ -8,7 +8,7 @@ import "./works.css";
 
 function Works() {
     return (
-        <Box className="general__div" bg={useColorModeValue('#AD9F93', '#363A3F')}>
+        <Box className="general__div_works" bg={useColorModeValue('#AD9F93', '#363A3F')}>
             <Box className="works--main-div">
                 <Section delay={0.1}>
                     <Box className="works--main-heading">

@@ -1,4 +1,4 @@
-.general__div {
+.general__div_works {
     padding: 5rem;
 }
 
@@ -27,3 +27,18 @@
         margin: auto;
     }
 }
+
+@media screen and (max-width: 770px) {
+}
+
+@media screen and (max-width: 550px) {
+    .works__works_box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .general__div_works {
+        padding: 1rem;
+    }}

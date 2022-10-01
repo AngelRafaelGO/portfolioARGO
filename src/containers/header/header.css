@@ -118,4 +118,11 @@
 }
 
 @media screen and (max-width: 550px) {
+    .header__amy_container {
+        margin: 4rem 0;
+    }
+
+    .header__my_information {
+        margin: 1rem;
+    }
 }

@@ -25,7 +25,7 @@ function Contact() {
     }
 
     return (
-        <Box className="general__div" bg={useColorModeValue('#A79E8B', '#373227')}>
+        <Box className="general__div_contact" bg={useColorModeValue('#A79E8B', '#373227')}>
             <Box className="contact__main_div">
                 <Section>
                     <Box>

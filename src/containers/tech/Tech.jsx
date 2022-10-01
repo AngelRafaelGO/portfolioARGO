@@ -8,7 +8,7 @@ import { reactLogo, jsLogo, nodeLogo, htmlLogo, cssLogo, sqlLogo, phpLogo, symfo
 
 function Tech() {
     return (
-        <Box className="general__div" bg={useColorModeValue('', '#2F2E34')}>
+        <Box className="general__div_tech" bg={useColorModeValue('', '#2F2E34')}>
             <Box className="tech__main_div">
                 <Section delay={0.1}>
                     <Box className="tech__tech_div">

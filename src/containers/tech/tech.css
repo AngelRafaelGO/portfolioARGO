@@ -1,4 +1,4 @@
-.general__div {
+.general__div_tech {
     padding: 5rem;
 }
 
@@ -32,3 +32,22 @@
     margin: 0.5rem;
 }
 
+@media screen and (min-width: 770px) {
+}
+
+@media screen and (max-width: 770px) {
+}
+
+@media screen and (max-width: 550px) {
+    .tech__main_div {
+        margin: auto;
+    }
+
+    .tech__tech_div {
+        margin: auto;
+    }
+
+    .general__div_tech {
+        padding: 1rem;
+    }
+}

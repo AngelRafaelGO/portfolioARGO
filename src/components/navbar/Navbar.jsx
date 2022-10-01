@@ -25,15 +25,17 @@ function Navbar() {
         <Box className="portfolio__fixed_div">
             <Box className="portfolio__navbar">
                     <a href="/">
-                        <motion.div style={ {display: 'inline-block'} }
-                                    key={ useColorModeValue('light', 'dark') } initial={ {y: -20, opacity: 0} }
-                                    animate={ {y:0, opacity: 1} } exit={ {y: 20, opacity: 0} } transition={ {duration: 1} }>
-                            <Image
-                                className="header__my_logo"
-                                src={ useColorModeValue(myLogo, myLogo2) }
-                                alt="my logo"
-                            />
-                        </motion.div>
+                        <Box className="portfolio__navbar_logo">
+                            <motion.div style={ {display: 'inline-block'} }
+                                        key={ useColorModeValue('light', 'dark') } initial={ {y: -20, opacity: 0} }
+                                        animate={ {y:0, opacity: 1} } exit={ {y: 20, opacity: 0} } transition={ {duration: 1} }>
+                                <Image
+                                    className="header__my_logo"
+                                    src={ useColorModeValue(myLogo, myLogo2) }
+                                    alt="my logo"
+                                />
+                            </motion.div>
+                        </Box>
                     </a>
                 <Box className="portfolio__navbar_links">
                     <Text><a href="/works">Works</a></Text>

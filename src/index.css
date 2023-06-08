@@ -1,8 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,400;0,600;1,100;1,200;1,400;1,600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300&display=swap');
-
 :root {
-  --font-family: 'Roboto mono', sans-serif;
+  --font-family: 'Roboto Mono', monospace;
   --font-family-two: 'Source code pro';
 
   --color-dark: #171717;
